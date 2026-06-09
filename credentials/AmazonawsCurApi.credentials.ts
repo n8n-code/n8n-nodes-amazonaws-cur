@@ -8,7 +8,7 @@ import type {
 export class AmazonawsCurApi implements ICredentialType {
 	name = 'N8nDevAmazonawsCurApi';
 
-	displayName = 'amazonaws-cur API';
+	displayName = 'Amazonaws Cur API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsCur/amazonaws-cur.png', dark: 'file:../nodes/AmazonawsCur/amazonaws-cur.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsCurApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://cur.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-cur API server',
+			description: 'The base URL of your Amazonaws Cur API server',
 		},
 		{
 			displayName: 'API Key',

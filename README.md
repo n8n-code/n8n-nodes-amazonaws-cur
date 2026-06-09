@@ -53,9 +53,15 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post delete report definition, Post describe report definitions, Post modify report definition, Post put report definition |
+<details>
+<summary><b>Default</b> (4 operations)</summary>
+
+- Post Delete Report Definition
+- Post Describe Report Definitions
+- Post Modify Report Definition
+- Post Put Report Definition
+
+</details>
 
 ---
 

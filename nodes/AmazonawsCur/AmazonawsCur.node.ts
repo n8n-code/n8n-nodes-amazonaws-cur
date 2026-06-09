@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsCur implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-cur',
+		displayName: 'Amazonaws Cur',
 		name: 'N8nDevAmazonawsCur',
 		icon: { light: 'file:./amazonaws-cur.png', dark: 'file:./amazonaws-cur.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'AWS Cost and Usage Report API enables you to programmatically create, query, and delete AWS Cost and Usage report definitions. AWS Cost and Usage reports track the monthly AWS costs a..',
-		defaults: { name: 'amazonaws-cur' },
+		description: 'AWS Cost and Usage Report API enables programmatic creation, querying, and deletion of report definitions.',
+		defaults: { name: 'Amazonaws Cur' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

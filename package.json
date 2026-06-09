@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-amazonaws-cur",
-  "version": "1.0.0",
-  "description": "AWS Cost and Usage Report API enables you to programmatically create, query, and delete AWS Cost and Usage report definitions. AWS Cost and Usage reports track the monthly AWS costs a..",
+  "version": "1.0.1",
+  "description": "AWS Cost and Usage Report API enables programmatic creation, querying, and deletion of report definitions.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-amazonaws-cur",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "amazonaws-cur"
